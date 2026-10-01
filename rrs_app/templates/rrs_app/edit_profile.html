@@ -1,0 +1,19 @@
+{% extends 'rrs_app/base.html' %}
+
+{% block content %}
+
+<br></br>
+
+<h2 class ="text-center"> Edit Profile </h2>
+
+<div class = "col-md-4 offset-md-4">
+	<form method="POST" action="{% url 'edit_profile' %}">
+		{% csrf_token %}
+		{{ form.as_p }}
+
+		<input type="submit" value="Edit Profile" class=" btn btn-secondary">
+    <p><small><a href="{% url 'change_password' %}">Click here</a> to change your password</small></p>
+	</form>
+</div>
+
+{% endblock %}

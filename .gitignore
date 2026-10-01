@@ -1,0 +1,28 @@
+# Ignore macOS .DS_Store files
+.DS_Store
+
+# Ignore Python __pycache__ directories
+__pycache__/
+
+# Python
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django
+db.sqlite3
+*.log
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# User uploaded media
+media/

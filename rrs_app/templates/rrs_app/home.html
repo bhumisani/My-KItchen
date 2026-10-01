@@ -1,0 +1,66 @@
+
+{% extends 'rrs_app/base.html' %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <div class="container hero-content">
+
+        <br><br>
+
+        <h1 class="display-4" style="color: rgb(248, 240, 240);">
+            My Kitchen
+        </h1>
+
+        <p style="font-size: 25px; color: rgb(248, 240, 240);">
+            Discover Delicious Recipes Using Ingredients You Already Have
+        </p>
+
+        <p style="font-size: 17px; color: rgb(248, 240, 240);">
+            Reduce food waste and discover recipes with smart ingredient
+            recommendations and possible substitutions.
+        </p>
+
+        <br>
+
+        <div class="row text-center">
+
+            <div class="col-md-4">
+                <h4 style="color: white;">🥕 Ingredients</h4>
+                <p style="color: white;">
+                    Add ingredients available in your kitchen.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h4 style="color: white;">🍳 Recipe Discovery</h4>
+                <p style="color: white;">
+                    Find recipes based on your ingredients.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h4 style="color: white;">🔄 Substitutions</h4>
+                <p style="color: white;">
+                    Explore possible alternatives for missing ingredients.
+                </p>
+            </div>
+
+        </div>
+
+        <br>
+
+        <p>
+            <a class="btn btn-primary btn-lg"
+               href="{% url 'input_form' %}"
+               role="button">
+                Get Started &raquo;
+            </a>
+        </p>
+
+        <br><br>
+
+    </div>
+</div>
+
+{% endblock %}

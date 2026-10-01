@@ -1,0 +1,119 @@
+{% extends 'rrs_app/base.html' %}
+
+{% block content %}
+
+<br>
+
+<div class="col-md-10 offset-md-1">
+
+    <h2>🌐 Explore Online Recipes</h2>
+
+    <p class="text-muted">
+        Search for recipes using TheMealDB online recipe database.
+    </p>
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <div class="input-group mb-3">
+            <input
+                type="text"
+                name="search"
+                class="form-control"
+                placeholder="Search for a recipe..."
+                value="{{ search_query }}"
+                required
+            >
+
+            <div class="input-group-append">
+                <button
+                    type="submit"
+                    class="btn btn-primary">
+                    Search
+                </button>
+            </div>
+        </div>
+    </form>
+
+    {% if error_message %}
+        <div class="alert alert-danger">
+            {{ error_message }}
+        </div>
+    {% endif %}
+
+    {% if search_query and not meals %}
+        <div class="alert alert-warning">
+            No recipes found for "{{ search_query }}".
+        </div>
+    {% endif %}
+
+    {% if meals %}
+
+        <h4 class="mt-4">
+            Results for "{{ search_query }}"
+        </h4>
+
+        <div class="row">
+
+            {% for meal in meals %}
+
+                <div class="col-md-4 mb-4">
+
+                    <div class="card h-100 shadow-sm">
+
+                        <img
+                            src="{{ meal.strMealThumb }}"
+                            class="card-img-top"
+                            alt="{{ meal.strMeal }}"
+                        >
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                {{ meal.strMeal }}
+                            </h5>
+
+                            {% if meal.strCategory %}
+                                <p class="card-text">
+                                    <strong>Category:</strong>
+                                    {{ meal.strCategory }}
+                                </p>
+                            {% endif %}
+
+                            {% if meal.strArea %}
+                                <p class="card-text">
+                                    <strong>Cuisine:</strong>
+                                    {{ meal.strArea }}
+                                </p>
+                            {% endif %}
+
+                            <a
+                              href="{% url 'online_recipe_detail' meal.idMeal %}"
+                              class="btn btn-success">
+                              View Recipe
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+        <p class="text-muted mt-3">
+            Recipe data provided by
+            <a
+                href="https://www.themealdb.com/"
+                target="_blank">
+                TheMealDB
+            </a>.
+        </p>
+
+    {% endif %}
+
+</div>
+
+{% endblock %}

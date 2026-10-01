@@ -1,0 +1,83 @@
+{% extends 'rrs_app/base.html' %}
+
+{% block content %}
+
+<br>
+
+<div class="col-md-8 offset-md-2">
+
+    <h2>{{ recipe_details.title }}</h2>
+
+    {% if recipe_details.photo %}
+        <p>
+            <img src="{{ recipe_details.photo.url }}"
+                 alt="{{ recipe_details.title }}"
+                 style="max-width: 100%; height: auto;">
+        </p>
+    {% endif %}
+
+    <form method="POST"
+          action="{% url 'recipe_detail' recipe_details.slug %}">
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <label class="switch">
+            <input type="checkbox" name="check">
+            <span class="slider round"></span>
+        </label>
+
+        <input type="submit"
+               class="btn btn-primary"
+               name="completed"
+               value="Mark as Complete">
+
+        <a class="btn btn-warning"
+           href="{% url 'recipe_list' %}">
+            Back
+        </a>
+    </form>
+
+    <br>
+
+    <h3>Ingredients for {{ recipe_details.title }}</h3>
+
+    <p class="text-muted">
+    The table shows the required quantity and possible substitutes.
+    </p>
+
+    <table class="table table-bordered">
+
+    <thead>
+        <tr>
+            <th>Ingredient</th>
+            <th>Required Amount</th>
+            <th>Possible Substitutes</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for ingredient_object in ingredient_list %}
+        <tr>
+            <td>{{ ingredient_object.0.ingredient }}</td>
+            <td>{{ ingredient_object.0.amount }}</td>
+            <td>
+                {% if ingredient_object.1.substitute_suggestions %}
+                    {{ ingredient_object.1.substitute_suggestions|join:", " }}
+                {% else %}
+                    No substitutes available
+                {% endif %}
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="3">No ingredients available.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
+
+</div>
+
+{% endblock %}
