@@ -164,3 +164,69 @@ Unique constraints are used to prevent duplicate recipe-ingredient and user-ingr
 
 ```bash
 git clone https://github.com/bhumisani/My-KItchen.git
+
+Navigate into the project directory:
+
+```bash
+cd rrs_project
+
+add this:
+
+```markdown
+### 2. Create a Virtual Environment
+
+Create a separate Python environment for this project:
+
+```bash
+python -m venv venv
+
+Activate the virtual environment on Windows:
+
+```powershell
+venv\Scripts\activate
+### 3. Install Dependencies
+Install all required Python packages:
+
+```bash
+python -m pip install -r requirements.txt
+
+### 4. Apply Database Migrations
+Run Django's database migrations:
+
+```bash
+python manage.py migrate
+
+### 5. Create an Administrator Account
+
+Create an administrator account for accessing the Django admin panel:
+
+```bash
+python manage.py createsuperuser
+
+python manage.py runserver
+
+## API Integration
+
+The application integrates the TheMealDB REST API for online recipe discovery.
+
+The integration is used for:
+
+- Searching recipes by name
+- Looking up recipe details by meal ID
+- Retrieving recipe images, ingredients, measurements, and instructions
+
+The API returns recipe data in JSON format, which is processed and displayed in the application.
+
+API documentation:
+
+https://www.themealdb.com/api.php
+
+## Original Project
+
+This project is based on the original Django Recipe Recommendation System by Toyan Ünal.
+
+Original repository:
+
+https://github.com/toyanunal/django-recipe-recommendation-system-project
+
+The original project's license and attribution have been retained.
