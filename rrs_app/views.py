@@ -374,12 +374,15 @@ def recipe_form_view(request):
             rec.match_percentage = 0
 
         # Store missing ingredients for the template
+        # Store missing ingredients for the template
         rec.missing_ingredients = missing_ingredients
 
-        # No quantity-based cost calculation
+# No quantity-based cost calculation
         rec.total_cost = 0
 
-        recipe_list.append(rec)
+# Only show recipes that match at least one pantry ingredient
+        if matched_ingredients > 0:
+            recipe_list.append(rec)
 
     # Show recipes with the highest matching ingredients first
     recipe_list.sort(
