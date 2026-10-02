@@ -163,4 +163,4 @@ Unique constraints are used to prevent duplicate recipe-ingredient and user-ingr
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/bhumisani/My-KItchen.git
