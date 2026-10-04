@@ -230,3 +230,17 @@ Original repository:
 https://github.com/toyanunal/django-recipe-recommendation-system-project
 
 The original project's license and attribution have been retained.
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/my homepage.png)
+
+### Pantry / Ingredients
+![Pantry](screenshots/ingredient add.png)
+
+### Recipe Recommendations
+![Recipe Recommendations](screenshots/list.png)
+
+### Online Recipe Search
+![Online Recipe Search](screenshots/search.png)
