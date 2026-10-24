@@ -10,6 +10,7 @@ from .forms import SignUpForm, EditProfileForm, MyPasswordChangeForm, UserIngred
 from django.contrib.auth.models import User
 import requests
 THEMEALDB_API_URL = 'https://www.themealdb.com/api/json/v1/1'
+from django.conf import settings
 
 def home(request):
     return render(request, 'rrs_app/home.html', {})
@@ -544,6 +545,18 @@ def online_recipe_search(request):
         messages.warning(request, 'Please log in to explore online recipes.')
         return redirect('login')
 
+    if not settings.ENABLE_ONLINE_RECIPES:
+        error_message = 'Online recipe search is currently unavailable.'
+        return render(
+            request,
+            'rrs_app/online_recipe_search.html',
+            {
+                'meals': meals,
+                'search_query': search_query,
+                'error_message': error_message,
+            }
+        )
+
     if request.method == 'POST':
         search_query = request.POST.get('search', '').strip()
 
@@ -580,6 +593,16 @@ def online_recipe_detail(request, meal_id):
     if not request.user.is_authenticated:
         messages.warning(request, 'Please log in to explore online recipes.')
         return redirect('login')
+
+    if not settings.ENABLE_ONLINE_RECIPES:
+        return render(
+            request,
+            'rrs_app/online_recipe_detail.html',
+            {
+                'meal': None,
+                'error_message': 'Online recipe details are currently unavailable.',
+            }
+        )
 
     meal = None
     error_message = ""
