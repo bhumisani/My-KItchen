@@ -1,0 +1,2688 @@
+[
+{
+  "model": "rrs_app.ingredient",
+  "pk": 1,
+  "fields": {
+    "title": "butter",
+    "unit_type": "grams",
+    "unit_cost": 90.0,
+    "substitutes": "olive oil",
+    "photo": "rrs_app/butter.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 2,
+  "fields": {
+    "title": "potatoes",
+    "unit_type": "grams",
+    "unit_cost": 15.0,
+    "substitutes": "sweet potato",
+    "photo": "rrs_app/patatoes.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 3,
+  "fields": {
+    "title": "sunflower oil",
+    "unit_type": "milliliters",
+    "unit_cost": 30.0,
+    "substitutes": "olive oil",
+    "photo": "rrs_app/sunflower_oil.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 4,
+  "fields": {
+    "title": "tomato paste",
+    "unit_type": "grams",
+    "unit_cost": 29.0,
+    "substitutes": "",
+    "photo": "rrs_app/tomatoes_paste.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 5,
+  "fields": {
+    "title": "pepper paste",
+    "unit_type": "grams",
+    "unit_cost": 30.0,
+    "substitutes": "",
+    "photo": "rrs_app/pepper_paste.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 6,
+  "fields": {
+    "title": "egg",
+    "unit_type": "count",
+    "unit_cost": 2.0,
+    "substitutes": "chickpeas",
+    "photo": "rrs_app/egg.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 7,
+  "fields": {
+    "title": "flour",
+    "unit_type": "grams",
+    "unit_cost": 15.0,
+    "substitutes": "coarse wheat",
+    "photo": "rrs_app/flour.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 8,
+  "fields": {
+    "title": "coarse wheat",
+    "unit_type": "grams",
+    "unit_cost": 20.0,
+    "substitutes": "thin wheat",
+    "photo": "rrs_app/coarsewheat.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 9,
+  "fields": {
+    "title": "thin wheat",
+    "unit_type": "grams",
+    "unit_cost": 25.0,
+    "substitutes": "coarse wheat",
+    "photo": "rrs_app/thin_wheat_XxGq3ru.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 10,
+  "fields": {
+    "title": "mushroom",
+    "unit_type": "grams",
+    "unit_cost": 39.0,
+    "substitutes": "aubergine",
+    "photo": "rrs_app/mushroom.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 11,
+  "fields": {
+    "title": "lemon",
+    "unit_type": "grams",
+    "unit_cost": 15.0,
+    "substitutes": "vinegar",
+    "photo": "rrs_app/lemon.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 12,
+  "fields": {
+    "title": "capia pepper",
+    "unit_type": "grams",
+    "unit_cost": 28.0,
+    "substitutes": "",
+    "photo": "rrs_app/capia_pepper.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 13,
+  "fields": {
+    "title": "chili pepper",
+    "unit_type": "grams",
+    "unit_cost": 35.0,
+    "substitutes": "",
+    "photo": "rrs_app/şili-biber.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 14,
+  "fields": {
+    "title": "green pepper",
+    "unit_type": "grams",
+    "unit_cost": 25.0,
+    "substitutes": "",
+    "photo": "rrs_app/greenpapper.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 15,
+  "fields": {
+    "title": "chicken",
+    "unit_type": "grams",
+    "unit_cost": 85.0,
+    "substitutes": "chickpeas",
+    "photo": "rrs_app/chicken.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 16,
+  "fields": {
+    "title": "thyme",
+    "unit_type": "grams",
+    "unit_cost": 15.0,
+    "substitutes": "",
+    "photo": "rrs_app/thyme.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 17,
+  "fields": {
+    "title": "cheddar cheese",
+    "unit_type": "grams",
+    "unit_cost": 85.0,
+    "substitutes": "mozzarella",
+    "photo": "rrs_app/cheddar.webp"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 18,
+  "fields": {
+    "title": "tomato",
+    "unit_type": "grams",
+    "unit_cost": 25.0,
+    "substitutes": "capia pepper",
+    "photo": "rrs_app/Tomato_je.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 19,
+  "fields": {
+    "title": "garlic",
+    "unit_type": "count",
+    "unit_cost": 3.0,
+    "substitutes": "onion",
+    "photo": "rrs_app/garlic.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 20,
+  "fields": {
+    "title": "onion",
+    "unit_type": "grams",
+    "unit_cost": 5.0,
+    "substitutes": "scallion",
+    "photo": "rrs_app/onion.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 21,
+  "fields": {
+    "title": "olive oil",
+    "unit_type": "milliliters",
+    "unit_cost": 85.0,
+    "substitutes": "sunflower oil",
+    "photo": "rrs_app/olive-oil.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 22,
+  "fields": {
+    "title": "aubergine",
+    "unit_type": "grams",
+    "unit_cost": 15.0,
+    "substitutes": "",
+    "photo": "rrs_app/aubergine.webp"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 24,
+  "fields": {
+    "title": "scallion",
+    "unit_type": "count",
+    "unit_cost": 2.0,
+    "substitutes": "",
+    "photo": "rrs_app/scallion.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 25,
+  "fields": {
+    "title": "mince meat",
+    "unit_type": "grams",
+    "unit_cost": 160.0,
+    "substitutes": "",
+    "photo": "rrs_app/mince-meat.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 26,
+  "fields": {
+    "title": "parsley",
+    "unit_type": "count",
+    "unit_cost": 4.0,
+    "substitutes": "scallion",
+    "photo": "rrs_app/parsley.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 27,
+  "fields": {
+    "title": "zucchini",
+    "unit_type": "count",
+    "unit_cost": 4.0,
+    "substitutes": "",
+    "photo": "rrs_app/Zucchini_Edited-scaled.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 28,
+  "fields": {
+    "title": "chickpeas",
+    "unit_type": "grams",
+    "unit_cost": 20.0,
+    "substitutes": "",
+    "photo": "rrs_app/chickpeas.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 29,
+  "fields": {
+    "title": "yogurt",
+    "unit_type": "grams",
+    "unit_cost": 23.0,
+    "substitutes": "",
+    "photo": "rrs_app/yogurt.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 30,
+  "fields": {
+    "title": "mozzarella",
+    "unit_type": "grams",
+    "unit_cost": 220.0,
+    "substitutes": "cheddar cheese",
+    "photo": "rrs_app/mozeralla.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 31,
+  "fields": {
+    "title": "lamb meat",
+    "unit_type": "grams",
+    "unit_cost": 250.0,
+    "substitutes": "beef meat",
+    "photo": "rrs_app/lamb-meat.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 32,
+  "fields": {
+    "title": "beef meat",
+    "unit_type": "grams",
+    "unit_cost": 250.0,
+    "substitutes": "lamb meat",
+    "photo": "rrs_app/beef_meat.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 33,
+  "fields": {
+    "title": "rosemary",
+    "unit_type": "count",
+    "unit_cost": 3.0,
+    "substitutes": "",
+    "photo": "rrs_app/rosemary.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 34,
+  "fields": {
+    "title": "milk",
+    "unit_type": "milliliters",
+    "unit_cost": 20.0,
+    "substitutes": "yogurt",
+    "photo": "rrs_app/milk.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 35,
+  "fields": {
+    "title": "cream",
+    "unit_type": "milliliters",
+    "unit_cost": 100.0,
+    "substitutes": "yogurt",
+    "photo": "rrs_app/cream.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 36,
+  "fields": {
+    "title": "lentil",
+    "unit_type": "grams",
+    "unit_cost": 19.0,
+    "substitutes": "",
+    "photo": "rrs_app/lentil.png"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 37,
+  "fields": {
+    "title": "carrot",
+    "unit_type": "grams",
+    "unit_cost": 26.0,
+    "substitutes": "zucchini",
+    "photo": "rrs_app/carrot.jpg"
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 38,
+  "fields": {
+    "title": "sugar",
+    "unit_type": "grams",
+    "unit_cost": 35.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 39,
+  "fields": {
+    "title": "chocolate",
+    "unit_type": "grams",
+    "unit_cost": 100.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 40,
+  "fields": {
+    "title": "coffee",
+    "unit_type": "grams",
+    "unit_cost": 400.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 41,
+  "fields": {
+    "title": "apple",
+    "unit_type": "grams",
+    "unit_cost": 12.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 42,
+  "fields": {
+    "title": "oat",
+    "unit_type": "grams",
+    "unit_cost": 45.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 43,
+  "fields": {
+    "title": "poha",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 44,
+  "fields": {
+    "title": "besan",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "coarse wheat",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 45,
+  "fields": {
+    "title": "cumin",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "coriander",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 46,
+  "fields": {
+    "title": "salt",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 47,
+  "fields": {
+    "title": "turmeric",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 48,
+  "fields": {
+    "title": "rice",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "coarse wheat",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 49,
+  "fields": {
+    "title": "moong dal",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "lentil",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 50,
+  "fields": {
+    "title": "wheat flour",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 51,
+  "fields": {
+    "title": "chili powder",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 52,
+  "fields": {
+    "title": "semolina",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "coarse wheat",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 53,
+  "fields": {
+    "title": "ginger",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "garlic",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.ingredient",
+  "pk": 54,
+  "fields": {
+    "title": "cooking oil",
+    "unit_type": "grams",
+    "unit_cost": 0.0,
+    "substitutes": "",
+    "photo": ""
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 1,
+  "fields": {
+    "title": "Patlican Lazanya",
+    "slug": "Patlican-Lazanya",
+    "meal_type": "lunch",
+    "diet_type": "keto",
+    "effort": "moderate",
+    "description": "https://yemek.com/tarif/patlican-lazanya-2/",
+    "photo": "recipe_photos/Patlican_Lazanya.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 2,
+  "fields": {
+    "title": "Cullama Kofte",
+    "slug": "Cullama-Kofte",
+    "meal_type": "dinner",
+    "diet_type": "healthy",
+    "effort": "moderate",
+    "description": "https://yemek.com/tarif/cullama-kofte/",
+    "photo": "recipe_photos/Cullama_Kofte.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 3,
+  "fields": {
+    "title": "Patlican Oturtma",
+    "slug": "Patlican-Oturtma",
+    "meal_type": "dinner",
+    "diet_type": "keto",
+    "effort": "high",
+    "description": "https://yemek.com/tarif/firinda-patlican-oturtma/",
+    "photo": "recipe_photos/Patlican_Oturtma.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 4,
+  "fields": {
+    "title": "Firinda Haslama Patates",
+    "slug": "Firinda-Haslama-Patates",
+    "meal_type": "snack",
+    "diet_type": "vegan",
+    "effort": "moderate",
+    "description": "https://yemek.com/tarif/firinlanmis-haslama-patates/",
+    "photo": "recipe_photos/Firinda_Haslama_Patates.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 5,
+  "fields": {
+    "title": "Kabakli Alinazik",
+    "slug": "Kabakli-Alinazik",
+    "meal_type": "lunch",
+    "diet_type": "low carb",
+    "effort": "low",
+    "description": "https://yemek.com/tarif/kabakli-alinazik/",
+    "photo": "recipe_photos/Kabakli_Alinazik.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 6,
+  "fields": {
+    "title": "Patatesli Bomba Kofte",
+    "slug": "Patatesli-Bomba-Kofte",
+    "meal_type": "dinner",
+    "diet_type": "other",
+    "effort": "moderate",
+    "description": "https://yemek.com/tarif/patatesli-bomba-kofte/",
+    "photo": "recipe_photos/Patatesli_Bomba_Kofte.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 7,
+  "fields": {
+    "title": "Ratatouille",
+    "slug": "Ratatouille",
+    "meal_type": "lunch",
+    "diet_type": "other",
+    "effort": "high",
+    "description": "https://yemek.com/tarif/ratatouille/",
+    "photo": "recipe_photos/Ratatouille.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 8,
+  "fields": {
+    "title": "Melanzane",
+    "slug": "Melanzane",
+    "meal_type": "lunch",
+    "diet_type": "vegetarian",
+    "effort": "low",
+    "description": "https://yemek.com/tarif/melanzane/",
+    "photo": "recipe_photos/Melanzane.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 9,
+  "fields": {
+    "title": "Kisir",
+    "slug": "Kisir",
+    "meal_type": "snack",
+    "diet_type": "vegan",
+    "effort": "low",
+    "description": "https://yemek.com/tarif/kisir/",
+    "photo": "recipe_photos/Kisir.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 10,
+  "fields": {
+    "title": "Pancake Kiskandi",
+    "slug": "Pancake-Kiskandi",
+    "meal_type": "breakfast",
+    "diet_type": "vegetarian",
+    "effort": "moderate",
+    "description": "https://yemek.com/tarif/kahvaltilik-pofuduk/",
+    "photo": "recipe_photos/Pancake_Kiskandi.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 11,
+  "fields": {
+    "title": "Dalgona Sufle",
+    "slug": "Dalgona-Sufle",
+    "meal_type": "dessert",
+    "diet_type": "other",
+    "effort": "moderate",
+    "description": "https://yemek.com/tarif/dalgona-sufle/",
+    "photo": "recipe_photos/Dalgona_Sufle.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 12,
+  "fields": {
+    "title": "Trilece",
+    "slug": "Trilece",
+    "meal_type": "dessert",
+    "diet_type": "vegetarian",
+    "effort": "high",
+    "description": "https://yemek.com/tarif/pratik-trilece/",
+    "photo": "recipe_photos/Trilece.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 13,
+  "fields": {
+    "title": "Elmali Kurabiye",
+    "slug": "Elmali-Kurabiye",
+    "meal_type": "dessert",
+    "diet_type": "vegetarian",
+    "effort": "high",
+    "description": "https://yemek.com/tarif/elmali-kurabiye/",
+    "photo": "recipe_photos/Elmali_Kurabiye.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 14,
+  "fields": {
+    "title": "Atom",
+    "slug": "Atom",
+    "meal_type": "snack",
+    "diet_type": "vegetarian",
+    "effort": "low",
+    "description": "https://yemek.com/tarif/atom-meze/",
+    "photo": "recipe_photos/Atom.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 15,
+  "fields": {
+    "title": "Et Sote",
+    "slug": "Et-Sote",
+    "meal_type": "dinner",
+    "diet_type": "low carb",
+    "effort": "moderate",
+    "description": "https://yemek.com/tarif/et-sote/",
+    "photo": "recipe_photos/Et_Sote.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 16,
+  "fields": {
+    "title": "Izgara Sebze",
+    "slug": "Izgara-Sebze",
+    "meal_type": "dinner",
+    "diet_type": "vegetarian",
+    "effort": "high",
+    "description": "https://yemek.com/tarif/izgara-sebze/",
+    "photo": "recipe_photos/Izgara_Sebze.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 17,
+  "fields": {
+    "title": "Yulafli Omlet",
+    "slug": "Yulafli-Omlet",
+    "meal_type": "breakfast",
+    "diet_type": "keto",
+    "effort": "low",
+    "description": "https://yemek.com/tarif/yulafli-omlet/",
+    "photo": "recipe_photos/Yulafli_Omlet.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 18,
+  "fields": {
+    "title": "Mercimek Salatasi",
+    "slug": "mercimek-salatasi",
+    "meal_type": "lunch",
+    "diet_type": "healthy",
+    "effort": "low",
+    "description": "https://yemek.com/tarif/bulgurlu-yesil-mercimek-salatasi/",
+    "photo": "recipe_photos/Mercimek_Salatasi.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 19,
+  "fields": {
+    "title": "Domates Soslu Izgara Patlıcan",
+    "slug": "Domates-Soslu-Izgara-Patlıcan",
+    "meal_type": "lunch",
+    "diet_type": "healthy",
+    "effort": "low",
+    "description": "https://yemek.com/tarif/domates-soslu-izgara-patlican/",
+    "photo": "recipe_photos/Domates_Soslu_Izgara_Patlican.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 20,
+  "fields": {
+    "title": "Firinda Tavuk Patates",
+    "slug": "Firinda-Tavuk-Patates",
+    "meal_type": "dinner",
+    "diet_type": "healthy",
+    "effort": "low",
+    "description": "https://yemek.com/tarif/firinda-tavuk-patates/",
+    "photo": "recipe_photos/Firinda_Tavuk_Patates.jpg",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 21,
+  "fields": {
+    "title": "Poha",
+    "slug": "poha",
+    "meal_type": "breakfast",
+    "diet_type": "veg",
+    "effort": "easy",
+    "description": "A simple Indian breakfast.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 22,
+  "fields": {
+    "title": "Besan Chilla",
+    "slug": "besan-chilla",
+    "meal_type": "breakfast",
+    "diet_type": "veg",
+    "effort": "easy",
+    "description": "A quick gram flour pancake.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 23,
+  "fields": {
+    "title": "Jeera Rice",
+    "slug": "jeera-rice",
+    "meal_type": "lunch",
+    "diet_type": "veg",
+    "effort": "easy",
+    "description": "Rice flavored with cumin.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 24,
+  "fields": {
+    "title": "Aloo Fry",
+    "slug": "aloo-fry",
+    "meal_type": "lunch",
+    "diet_type": "veg",
+    "effort": "easy",
+    "description": "A quick potato dish.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 25,
+  "fields": {
+    "title": "Moong Dal Khichdi",
+    "slug": "moong-dal-khichdi",
+    "meal_type": "lunch",
+    "diet_type": "veg",
+    "effort": "easy",
+    "description": "A comforting rice and lentil dish.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 26,
+  "fields": {
+    "title": "Dal Tadka",
+    "slug": "dal-tadka",
+    "meal_type": "lunch",
+    "diet_type": "veg",
+    "effort": "easy",
+    "description": "A simple lentil dish with basic spices.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 27,
+  "fields": {
+    "title": "Masala Omelette",
+    "slug": "masala-omelette",
+    "meal_type": "breakfast",
+    "diet_type": "non-veg",
+    "effort": "easy",
+    "description": "A quick omelette with onion and spices.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 28,
+  "fields": {
+    "title": "Tomato Rice",
+    "slug": "tomato-rice",
+    "meal_type": "lunch",
+    "diet_type": "veg",
+    "effort": "easy",
+    "description": "Simple rice cooked with tomato and spices.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 29,
+  "fields": {
+    "title": "Vegetable Upma",
+    "slug": "vegetable-upma",
+    "meal_type": "breakfast",
+    "diet_type": "veg",
+    "effort": "easy",
+    "description": "A simple semolina breakfast.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipe",
+  "pk": 30,
+  "fields": {
+    "title": "Aloo Paratha",
+    "slug": "aloo-paratha",
+    "meal_type": "breakfast",
+    "diet_type": "veg",
+    "effort": "easy",
+    "description": "Indian flatbread stuffed with potatoes.",
+    "photo": "",
+    "total_cost": 0.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 9,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 20,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 10,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 9,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 11,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 7,
+    "amount": 60.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 12,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 6,
+    "amount": 3.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 13,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 4,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 14,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 3,
+    "amount": 180.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 15,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 1,
+    "amount": 70.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 16,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 25,
+    "amount": 500.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 17,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 26,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 18,
+  "fields": {
+    "recipe": 2,
+    "ingredient": 29,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 19,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 22,
+    "amount": 450.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 20,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 21,
+    "amount": 90.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 21,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 19,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 22,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 7,
+    "amount": 80.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 23,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 4,
+    "amount": 50.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 24,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 3,
+    "amount": 80.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 25,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 1,
+    "amount": 90.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 26,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 30,
+    "amount": 130.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 27,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 31,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 28,
+  "fields": {
+    "recipe": 1,
+    "ingredient": 34,
+    "amount": 250.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 29,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 22,
+    "amount": 300.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 30,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 21,
+    "amount": 180.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 31,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 20,
+    "amount": 125.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 32,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 19,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 33,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 18,
+    "amount": 250.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 34,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 4,
+    "amount": 120.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 35,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 3,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 36,
+  "fields": {
+    "recipe": 3,
+    "ingredient": 25,
+    "amount": 500.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 37,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 21,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 38,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 19,
+    "amount": 3.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 39,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 2,
+    "amount": 600.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 40,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 26,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 41,
+  "fields": {
+    "recipe": 4,
+    "ingredient": 33,
+    "amount": 3.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 42,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 21,
+    "amount": 190.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 43,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 20,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 44,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 19,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 45,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 13,
+    "amount": 20.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 46,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 12,
+    "amount": 60.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 47,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 4,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 48,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 25,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 49,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 26,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 50,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 27,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 51,
+  "fields": {
+    "recipe": 5,
+    "ingredient": 29,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 52,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 20,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 53,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 17,
+    "amount": 350.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 54,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 6,
+    "amount": 3.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 55,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 4,
+    "amount": 80.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 56,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 2,
+    "amount": 1200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 57,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 1,
+    "amount": 80.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 58,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 25,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 59,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 26,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 60,
+  "fields": {
+    "recipe": 6,
+    "ingredient": 28,
+    "amount": 180.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 61,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 22,
+    "amount": 300.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 62,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 21,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 63,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 20,
+    "amount": 80.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 64,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 19,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 65,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 18,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 66,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 16,
+    "amount": 60.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 67,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 12,
+    "amount": 40.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 68,
+  "fields": {
+    "recipe": 7,
+    "ingredient": 27,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 69,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 22,
+    "amount": 450.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 70,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 20,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 71,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 19,
+    "amount": 3.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 72,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 18,
+    "amount": 110.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 73,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 17,
+    "amount": 300.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 74,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 16,
+    "amount": 70.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 75,
+  "fields": {
+    "recipe": 8,
+    "ingredient": 3,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 76,
+  "fields": {
+    "recipe": 9,
+    "ingredient": 21,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 77,
+  "fields": {
+    "recipe": 9,
+    "ingredient": 20,
+    "amount": 300.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 78,
+  "fields": {
+    "recipe": 9,
+    "ingredient": 13,
+    "amount": 45.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 79,
+  "fields": {
+    "recipe": 9,
+    "ingredient": 11,
+    "amount": 300.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 80,
+  "fields": {
+    "recipe": 9,
+    "ingredient": 9,
+    "amount": 400.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 81,
+  "fields": {
+    "recipe": 9,
+    "ingredient": 4,
+    "amount": 120.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 82,
+  "fields": {
+    "recipe": 9,
+    "ingredient": 26,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 83,
+  "fields": {
+    "recipe": 10,
+    "ingredient": 17,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 84,
+  "fields": {
+    "recipe": 10,
+    "ingredient": 7,
+    "amount": 300.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 85,
+  "fields": {
+    "recipe": 10,
+    "ingredient": 6,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 86,
+  "fields": {
+    "recipe": 10,
+    "ingredient": 3,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 87,
+  "fields": {
+    "recipe": 10,
+    "ingredient": 34,
+    "amount": 300.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 88,
+  "fields": {
+    "recipe": 11,
+    "ingredient": 6,
+    "amount": 3.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 89,
+  "fields": {
+    "recipe": 11,
+    "ingredient": 38,
+    "amount": 170.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 90,
+  "fields": {
+    "recipe": 11,
+    "ingredient": 39,
+    "amount": 120.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 91,
+  "fields": {
+    "recipe": 11,
+    "ingredient": 40,
+    "amount": 30.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 92,
+  "fields": {
+    "recipe": 12,
+    "ingredient": 6,
+    "amount": 3.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 93,
+  "fields": {
+    "recipe": 12,
+    "ingredient": 38,
+    "amount": 400.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 94,
+  "fields": {
+    "recipe": 12,
+    "ingredient": 34,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 95,
+  "fields": {
+    "recipe": 12,
+    "ingredient": 7,
+    "amount": 120.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 96,
+  "fields": {
+    "recipe": 12,
+    "ingredient": 35,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 97,
+  "fields": {
+    "recipe": 13,
+    "ingredient": 7,
+    "amount": 180.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 98,
+  "fields": {
+    "recipe": 13,
+    "ingredient": 38,
+    "amount": 120.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 99,
+  "fields": {
+    "recipe": 13,
+    "ingredient": 29,
+    "amount": 110.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 100,
+  "fields": {
+    "recipe": 13,
+    "ingredient": 3,
+    "amount": 60.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 101,
+  "fields": {
+    "recipe": 13,
+    "ingredient": 1,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 102,
+  "fields": {
+    "recipe": 13,
+    "ingredient": 11,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 103,
+  "fields": {
+    "recipe": 13,
+    "ingredient": 41,
+    "amount": 600.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 104,
+  "fields": {
+    "recipe": 14,
+    "ingredient": 29,
+    "amount": 600.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 105,
+  "fields": {
+    "recipe": 14,
+    "ingredient": 19,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 106,
+  "fields": {
+    "recipe": 14,
+    "ingredient": 1,
+    "amount": 80.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 107,
+  "fields": {
+    "recipe": 14,
+    "ingredient": 3,
+    "amount": 40.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 108,
+  "fields": {
+    "recipe": 14,
+    "ingredient": 13,
+    "amount": 15.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 109,
+  "fields": {
+    "recipe": 15,
+    "ingredient": 32,
+    "amount": 600.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 110,
+  "fields": {
+    "recipe": 15,
+    "ingredient": 21,
+    "amount": 70.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 111,
+  "fields": {
+    "recipe": 15,
+    "ingredient": 20,
+    "amount": 130.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 112,
+  "fields": {
+    "recipe": 15,
+    "ingredient": 18,
+    "amount": 200.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 113,
+  "fields": {
+    "recipe": 15,
+    "ingredient": 14,
+    "amount": 60.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 114,
+  "fields": {
+    "recipe": 15,
+    "ingredient": 4,
+    "amount": 40.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 115,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 22,
+    "amount": 180.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 116,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 27,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 117,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 13,
+    "amount": 65.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 118,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 18,
+    "amount": 300.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 119,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 19,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 120,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 30,
+    "amount": 35.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 121,
+  "fields": {
+    "recipe": 16,
+    "ingredient": 21,
+    "amount": 55.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 122,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 6,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 123,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 42,
+    "amount": 180.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 124,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 30,
+    "amount": 40.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 125,
+  "fields": {
+    "recipe": 17,
+    "ingredient": 21,
+    "amount": 15.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 126,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 36,
+    "amount": 230.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 127,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 9,
+    "amount": 250.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 128,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 37,
+    "amount": 30.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 129,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 21,
+    "amount": 120.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 130,
+  "fields": {
+    "recipe": 18,
+    "ingredient": 11,
+    "amount": 20.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 131,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 22,
+    "amount": 120.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 132,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 21,
+    "amount": 80.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 133,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 30,
+    "amount": 75.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 134,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 4,
+    "amount": 160.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 135,
+  "fields": {
+    "recipe": 19,
+    "ingredient": 19,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 136,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 15,
+    "amount": 1000.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 137,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 2,
+    "amount": 1000.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 138,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 18,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 139,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 19,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 140,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 11,
+    "amount": 60.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 141,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 21,
+    "amount": 80.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 142,
+  "fields": {
+    "recipe": 20,
+    "ingredient": 12,
+    "amount": 25.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 143,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 43,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 144,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 20,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 145,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 146,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 147,
+  "fields": {
+    "recipe": 21,
+    "ingredient": 47,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 148,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 44,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 149,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 20,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 150,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 151,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 47,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 152,
+  "fields": {
+    "recipe": 22,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 153,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 48,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 154,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 45,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 155,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 156,
+  "fields": {
+    "recipe": 23,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 157,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 2,
+    "amount": 150.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 158,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 159,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 160,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 47,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 161,
+  "fields": {
+    "recipe": 24,
+    "ingredient": 51,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 162,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 48,
+    "amount": 50.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 163,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 49,
+    "amount": 50.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 164,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 47,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 165,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 166,
+  "fields": {
+    "recipe": 25,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 167,
+  "fields": {
+    "recipe": 26,
+    "ingredient": 49,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 168,
+  "fields": {
+    "recipe": 26,
+    "ingredient": 18,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 169,
+  "fields": {
+    "recipe": 26,
+    "ingredient": 20,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 170,
+  "fields": {
+    "recipe": 26,
+    "ingredient": 47,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 171,
+  "fields": {
+    "recipe": 26,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 172,
+  "fields": {
+    "recipe": 26,
+    "ingredient": 45,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 173,
+  "fields": {
+    "recipe": 26,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 174,
+  "fields": {
+    "recipe": 27,
+    "ingredient": 6,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 175,
+  "fields": {
+    "recipe": 27,
+    "ingredient": 20,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 176,
+  "fields": {
+    "recipe": 27,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 177,
+  "fields": {
+    "recipe": 27,
+    "ingredient": 51,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 178,
+  "fields": {
+    "recipe": 27,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 179,
+  "fields": {
+    "recipe": 28,
+    "ingredient": 48,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 180,
+  "fields": {
+    "recipe": 28,
+    "ingredient": 18,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 181,
+  "fields": {
+    "recipe": 28,
+    "ingredient": 20,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 182,
+  "fields": {
+    "recipe": 28,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 183,
+  "fields": {
+    "recipe": 28,
+    "ingredient": 47,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 184,
+  "fields": {
+    "recipe": 28,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 185,
+  "fields": {
+    "recipe": 29,
+    "ingredient": 52,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 186,
+  "fields": {
+    "recipe": 29,
+    "ingredient": 20,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 187,
+  "fields": {
+    "recipe": 29,
+    "ingredient": 37,
+    "amount": 1.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 188,
+  "fields": {
+    "recipe": 29,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 189,
+  "fields": {
+    "recipe": 29,
+    "ingredient": 47,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 190,
+  "fields": {
+    "recipe": 29,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 191,
+  "fields": {
+    "recipe": 30,
+    "ingredient": 50,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 192,
+  "fields": {
+    "recipe": 30,
+    "ingredient": 2,
+    "amount": 100.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 193,
+  "fields": {
+    "recipe": 30,
+    "ingredient": 46,
+    "amount": 5.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 194,
+  "fields": {
+    "recipe": 30,
+    "ingredient": 51,
+    "amount": 2.0
+  }
+},
+{
+  "model": "rrs_app.recipeingredient",
+  "pk": 195,
+  "fields": {
+    "recipe": 30,
+    "ingredient": 54,
+    "amount": 10.0
+  }
+}
+]
